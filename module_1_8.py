@@ -1,0 +1,26 @@
+my_dict={'Valentina': 1938, 'Elizabeth': 1979, 'Anastasia': 2004, 'Oksana': 1972}
+print(my_dict)
+print(my_dict['Elizabeth'])
+my_dict['Natalia']=1978
+print(my_dict)
+del my_dict['Valentina']
+print(my_dict)
+my_dict.update({'Victoria': 2007, 'Alexey': 2010})
+print(my_dict)
+print(my_dict.get('Oksana'))
+print(my_dict.get('Max'))
+print(my_dict.get('Max', 'Данного ключа нет'))
+a=my_dict.pop('Natalia')
+print(my_dict)
+print(a)
+print(my_dict)
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.items())
+my_set={22,34,72,52,22,52,34}
+print(my_set)
+print(my_set.add(45))
+print(my_set.add(49))
+print(my_set)
+print(my_set.discard(52))
+print(my_set)
